@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman";
+}
+
+a {
+  text-decoration: none;
+}
+.navigation {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color:rgba(179, 0, 0,0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+.navi-right{
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.navi-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navi-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.project{
+  padding: 180px 0 100px 0;
+  background-size: cover;	
+  display:flex;	
+}
+.image{
+	text-align:left;
+	
+	padding-right:10px;
+}
+.project-title{
+	 width: 800px;
+    padding: 25px;
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%; 
+     margin: 0 auto;
+	  border: 2px solid black;
+  border-radius: 12px;
+ -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+	text-align:center;
+    }
+.project-title h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.project-title p{
+opacity: 0.7;
+  margin-bottom: 3px;
+
+}
+.about{
+	
+ width: 800px;
+  padding: 0 15px;
+  margin: 0 auto;
+ text-align:center; 
+}
+.btn-linkedin{
+  margin: 20px 0;
+}
+.link{
+	 background-color: #3b5998;
+  margin-right: 10px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+
+
+
+
